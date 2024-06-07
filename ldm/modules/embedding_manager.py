@@ -3,7 +3,6 @@ from torch import nn
 from PIL import Image
 from ldm.modules.encoders.modules import FrozenCLIPImageEmbedder
 from ldm.data.personalized import per_img_token_list
-from transformers import CLIPTokenizer
 from functools import partial
 import numpy as np
 DEFAULT_PLACEHOLDER_TOKEN = ["*"]
